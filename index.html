@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome to Camden</title>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/animation.css">
+  <link rel="stylesheet" type="text/css" href="css/utilities.css">
+  <link rel="stylesheet" type="text/css" href="css/gird.min.css">
+</head>
+<body>
+  <!-- ======================Header========================= -->
+  <header>
+    <!-- topnav alert -->
+    <div class="topnav-alert">
+      <div class="container fh">
+        <div class="topnav-alert-content">
+          <p>Populate this marketing banner to advertise a special promotion such as: Save 20% this weekend!</p>
+        </div>
+      </div>
+    </div>
+    <!-- topnav focus -->
+    <div class="topnav-focus">
+      <div class="containers fh">
+        <div class="topnav-focus-content">
+          <div class="topnav-left">
+            <div class="logo">
+              <a href="index.html"><img src="/img/logo.svg"></a>
+            </div>
+            <div class="search-box">
+              <div class="input-box">
+                <form>
+                  <input type="search" name="search" placeholder="Search by keyward, brand or SKU">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="topnav-right">
+            <ul class="account">
+              <li>
+                <a href="#"><i class="fa fa-gift"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-user"></i></a>
+              </li>
+              <li class="cart">
+                <a href="#"><i class="fa fa-shopping-bag"></i><span><strong>3</strong></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar -->
+    <nav>
+      <div class="container fh">
+        <div class="topnav">
+          <div class="nav-links">
+            <ul class="links">
+              <li id="dropdown">
+                <a href="#" class="shoping">Shop Online</a><i class="fa fa-angle-down arrow"></i>
+                <div class="sub-menu">
+                  <div class="container">
+                    <div class="tab-2">
+                      <div class="tab-item">
+                        <ul class="tab-button">
+                          <li>
+                            <a id="defaultOpen" class="tablinks" onclick="openCat(event, 'featured')">Featured Categories</a>
+                            <i class="fa fa-angle-right"></i>
+                          </li>
+                          <li>
+                            <a class="tablinks" onclick="openCat(event, 'Automotive')">Automotive</a>
+                            <i class="fa fa-angle-right"></i>
+                          </li>
+                          <li>
+                            <a class="tablinks" onclick="openCat(event, 'Sports')">Sports Nutrition</a>
+                            <i class="fa fa-angle-right"></i>
+                          </li>
+                          <li>
+                            <a class="tablinks" onclick="openCat(event, 'Cosmetics')">Cosmetics</a>
+                            <i class="fa fa-angle-right"></i>
+                          </li>
+                          <li>
+                            <a class="tablinks" onclick="openCat(event, 'Health')">Health and Beauty</a>
+                            <i class="fa fa-angle-right"></i>
+                          </li>
+                          <li>
+                            <a class="tablinks" onclick="openCat(event, 'Diy')">DIY</a>
+                            <i class="fa fa-angle-right"></i>
+                          </li>
+                          <li>
+                            <a class="tablinks" onclick="openCat(event, 'Computers')">Computers</a>
+                            <i class="fa fa-angle-right"></i>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="tab-item">
+                        <div class="tab-content" id="featured">
+                          <div class="container">
+                            <div class="item-3 grid">
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Alloy Wheels</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Cosmetics</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Tools</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Computing</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-content" id="Automotive">
+                          <div class="container">
+                            <div class="item-4 grid">
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">By Brand</a></li>
+                                  <li><a href="#">By Color</a></li>
+                                  <li><a href="#">By Size</a></li>
+                                  <li><a href="#">By Style</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Tires</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Wheel and Tire Packages</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <div class="category-img">
+                                  <img src="/img/category/rear-view-of-sports-car__73211.original.jpg" width="100%">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-content" id="Sports">
+                          <div class="container">
+                            <div class="item-3 grid">
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Featured</a></li>
+                                  <li><a href="#">Bulking</a></li>
+                                  <li><a href="#">Cutting</a></li>
+                                  <li><a href="#">Performance</a></li>
+                                  <li><a href="#">Recovery</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Our Range</a></li>
+                                  <li><a href="#">Amino Acids</a></li>
+                                  <li><a href="#">Best Sellers</a></li>
+                                  <li><a href="#">Blends and Formulas</a></li>
+                                  <li><a href="#">Carbohydrates</a></li>
+                                  <li><a href="#">Creatine</a></li>
+                                  <li><a href="#">Food and Drinks</a></li>
+                                  <li><a href="#">Protein</a></li>
+                                  <li><a href="#">Tablets and Capsules</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <div class="category-img">
+                                  <img src="/img/category/02.jpg" width="100%">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-content" id="Cosmetics">
+                          <div class="container">
+                            <div class="item-4 grid">
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Eyes</a></li>
+                                  <li><a href="#">Eye shadow</a></li>
+                                  <li><a href="#">Eyesbrows</a></li>
+                                  <li><a href="#">Eyeliner</a></li>
+                                  <li><a href="#">Mascara</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Face</a></li>
+                                  <li><a href="#">Blusher</a></li>
+                                  <li><a href="#">Bronzer</a></li>
+                                  <li><a href="#">Contouring</a></li>
+                                  <li><a href="#">Highlighting</a></li>
+                                  <li><a href="#">Palettes</a></li>
+                                  <li><a href="#">Powder</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Featured</a></li>
+                                  <li><a href="#">Blusher</a></li>
+                                  <li><a href="#">Bronzer</a></li>
+                                  <li><a href="#">Eyeliner</a></li>
+                                  <li><a href="#">Lipstick</a></li>
+                                  <li><a href="#">Mascara</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <div class="category-img">
+                                  <img src="/img/category/03.jpg" width="100%">
+                                </div>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Lips</a></li>
+                                  <li><a href="#">Gloss Lipstick</a></li>
+                                  <li><a href="#">Lip Gloss</a></li>
+                                  <li><a href="#">Matte Lipstick</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Nails</a></li>
+                                  <li><a href="#">Gel Nail Polish</a></li>
+                                  <li><a href="#">Glitter Nail Polish</a></li>
+                                  <li><a href="#">Matte Nail Polish</a></li>
+                                  <li><a href="#">Nail Polish</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-content" id="Health">
+                          <div class="container">
+                            <div class="item-4 grid">
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Body</a></li>
+                                  <li><a href="#">Deodorant</a></li>
+                                  <li><a href="#">Fragrances</a></li>
+                                  <li><a href="#">Moisturizer</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Face</a></li>
+                                  <li><a href="#">Cleansers</a></li>
+                                  <li><a href="#">Day Care</a></li>
+                                  <li><a href="#">Eye Care</a></li>
+                                  <li><a href="#">Night Care</a></li>
+                                  <li><a href="#">Serums</a></li>
+                                  <li><a href="#">Toners</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Featured</a></li>
+                                  <li><a href="#">Fragrances</a></li>
+                                  <li><a href="#">Hair Care</a></li>
+                                  <li><a href="#">Men</a></li>
+                                  <li><a href="#">Serums</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <div class="category-img">
+                                  <img src="/img/category/04.png" width="100%">
+                                </div>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Hair</a></li>
+                                  <li><a href="#">Conditioner</a></li>
+                                  <li><a href="#">Shampoo</a></li>
+                                  <li><a href="#">Styling</a></li>
+                                  <li><a href="#">Treatments</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Skin</a></li>
+                                  <li><a href="#">Moisturizer</a></li>
+                                  <li><a href="#">SPF</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-content" id="Diy">
+                          <div class="container">
+                            <div class="item-4 grid">
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Tools</a></li>
+                                  <li><a href="#">Hand Tools</a></li>
+                                  <li><a href="#">Power Tool Accessories</a></li>
+                                  <li><a href="#">Power Tool</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Screws & Fixings</a></li>
+                                  <li><a href="#">Bolts</a></li>
+                                  <li><a href="#">Electrical Screws</a></li>
+                                  <li><a href="#">Metal Screws</a></li>
+                                  <li><a href="#">Rawl Plugs</a></li>
+                                  <li><a href="#">Self Tapping Screws</a></li>
+                                  <li><a href="#">Socket Screws</a></li>
+                                  <li><a href="#">Wood Screws</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Gardening</a></li>
+                                  <li><a href="#">Accessories</a></li>
+                                  <li><a href="#">Garden Power Tools</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <div class="category-img">
+                                  <img src="/img/category/05.jpg" width="100%">
+                                </div>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Decorating</a></li>
+                                  <li><a href="#">Hand Tools</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Safety & Workwear</a></li>
+                                  <li><a href="#">PPE</a></li>
+                                  <li><a href="#">Safety Footwear</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-content" id="Computers">
+                          <div class="container">
+                            <div class="item-4 grid">
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Componets</a></li>
+                                  <li><a href="#">Accessories</a></li>
+                                  <li><a href="#">Graphics Cards</a></li>
+                                  <li><a href="#">Memory</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Computing</a></li>
+                                  <li><a href="#">Desktop Computing</a></li>
+                                  <li><a href="#">Laptops</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Network & Storage</a></li>
+                                  <li><a href="#">Networking</a></li>
+                                  <li><a href="#">Storage</a></li>
+                                </ul>
+                              </div>
+                              <div class="tab-info">
+                                <div class="category-img">
+                                  <img src="/img/category/06.jpg" width="100%">
+                                </div>
+                              </div>
+                              <div class="tab-info">
+                                <ul>
+                                  <li><a href="#">Peripherals</a></li>
+                                  <li><a href="#">Keyboards, Mice & Input</a></li>
+                                  <li><a href="#">Monitors</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="#">Theme Features</a></li>
+              <li><a href="#">Content Examples</a></li>
+              <li><a href="#">Add Multiple SKUs</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="topnav-featured">
+            <ul class="link">
+              <li id="curr-link">
+                <a href="#">Currency</a><i class="fa fa-angle-down currarrow"></i>
+                <ul class="curr-sub">
+                  <li><a href="#"><i class="fa fa-dollar"></i> USD</a></li>
+                  <li><a href="#"><i class="fa fa-eur"></i> EUR</a></li>
+                </ul>
+              </li>
+              <li><strong>Need Help? <span>+88017-63408494</span></strong></li>
+              <li><strong>Your List</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <!-- ======================End Header========================= -->
+
+
+    <script type="module" src="./index.js"></script>        
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
