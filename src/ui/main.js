@@ -1,4 +1,5 @@
 import { getElement } from '../utils.js';
+import display from '../displayProducts.js';
 
 // Currency Show
 const curr = getElement('#curr-link');
@@ -23,3 +24,5 @@ dropdown.addEventListener('click', function(e) {
 	console.log(target)
 
 });
+
+

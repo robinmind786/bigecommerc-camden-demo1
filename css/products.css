@@ -2,6 +2,7 @@
 	padding-top: 1rem;
 	border: 1px solid #ccc;
 	background: var(--normal-color);
+	height: 600px;
 }
 
 .card img {
