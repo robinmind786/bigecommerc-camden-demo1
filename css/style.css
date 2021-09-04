@@ -443,19 +443,157 @@ nav .topnav .topnav-featured .link .curr-sub li a {
 		display: none;
 	}
 
-
-
-
-
-
 	nav {
 		display: none;
 	}
 
 }
 
+/*
+==============
+	Slider
+==============
+*/
+
+.slider {
+	width: 100%;
+	padding: 40px 0;
+}
+
+.slider .slider-container {
+	position: relative;
+}
+
+.slider .slider-container .slider-info {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+
+.slider .slider-container .slider-info .slider-heading {
+	font-size: 28px;
+	font-weight: 700;
+	color: var(--normal-color);
+}
+
+.slider .slider-container .slider-info .slider-desc {
+	color: var(--normal-color);
+	font-size: 15px;
+	line-height: 22.5px;
+	margin-top: 16px;
+}
+
+.slider .slider-container .slider-info .slider-btn .btn {
+	padding: 8px 16px;
+	margin-top: 3rem;
+	background: var(--warning-color);
+	border-color: var(--warning-color);
+	font-weight: 700;
+}
+
+.slider .mySlides {
+	background: url('/img/slider/marketplace.png') no-repeat center center/cover;
+	height: 400px;
+
+}
 
 
+
+@media only screen and (max-width: 800px) {
+	.slider {
+		padding: 55px 0;
+	}
+}
+
+
+/*
+==============
+	Categories
+==============
+*/
+
+.categoies {
+	padding-bottom: 30px;
+}
+.categoies .categories-img {
+	position: relative;
+}
+
+.categoies .categories-img  img {
+	width: 100%;
+}
+
+.categoies .categories-img .categoies-btn {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translate(-50%);
+	white-space: nowrap;
+}
+
+.categoies .categories-img .categoies-btn .btn {
+	padding: 8px 10px;
+	font-size: 14px;
+	font-size: 700;
+}
+
+.categoies .categories-img .categoies-btn .btn:hover {
+	background: var(--gray-color);
+	color: var(--normal-color);
+}
+
+
+/*
+==============
+	Latest News
+==============
+*/
+.news article {
+	text-align: center;
+	background: var(--normal-color);
+	padding: 20px 16px;
+	border: 1px solid #ccc;
+	padding-bottom: 40px;
+}
+
+.news article img {
+	width: 100%;
+}
+
+.news article p {
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+.news .news-title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.news .news-title a {
+	font-size: 14px;
+	color: #333;
+	transition: all .3s ease;
+}
+
+.news .news-title a:hover {
+	color: var(--warning-color);
+}
+
+.section-pagination {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.section-pagination a {
+	color: #333;
+	text-decoration: underline;
+	transition: all .3s ease;
+}
+
+.section-pagination a:hover {
+	color: var(--warning-color);
+}
 /*
 ==============
 	Footer

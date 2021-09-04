@@ -1,0 +1,139 @@
+.card {
+	padding-top: 1rem;
+	border: 1px solid #ccc;
+	background: var(--normal-color);
+}
+
+.card img {
+	width: 100%;
+}
+
+.card .card-img {
+	position: relative;
+}
+
+.card .card-img .card-img-overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+	display: none;
+}
+
+.card:hover .card-img-overlay {
+	display: block;
+}
+
+.card .sale {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+
+.card .sale span {
+	background: red;
+	padding: 2px 5px;
+	color: var(--normal-color);
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.card .btn {
+	padding: 5px 10px;
+	transition: all .3s ease;
+}
+
+.card .btn:hover {
+	background: var(--warning-color);
+	border-color: var(--warning-color);
+	color: var(--normal-color);
+}
+
+.card .card-body {
+	padding: 0 16px;
+}
+
+.card .card-body .card-qr ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card .card-body .card-qr ul li {
+	list-style: none;
+	font-size: 13px;
+	line-height: 19px;
+}
+
+.card .card-body .card-qr ul li:first-child {
+	border-right: 1px solid #ccc;
+	padding-right: 10px;
+}
+
+.card .card-body .card-qr ul li:last-child {
+	padding-left: 10px;
+}
+
+.card .card-body .card-title a {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 22.5px;
+	color: #333;
+	transition: all .3s ease;
+}
+
+.card .card-body .card-title a:hover {
+	color: var(--warning-color);
+}
+
+.card .card-footer {
+	margin-top: 3rem;
+	padding: 0 16px;
+}
+
+.card .card-footer .btn {
+	width: 100%;
+	padding: 10px 0;
+}
+
+.card .card-footer .add-cart {
+	margin-top: 8px;
+}
+
+.card .card-footer .add-cart .btn {
+	background: var(--warning-color);
+}
+
+.card .card-footer .add-cart .btn:hover {
+	border-color: white;
+}
+
+.card .card-footer .add-wishlist .btn:hover {
+	background: var(--normal-color);
+	color: var(--warning-color);
+}
+
+.card .card-footer .card-price {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0;
+}
+
+.card .card-footer .card-price h4 {
+	color: red;
+	font-weight: 400;
+}
+
+.card .card-footer .card-price h3 {
+	font-size: 25px;
+	font-weight: 700;
+	color: var(--warning-color);
+}
+
+.section-heading {
+	text-align: center;
+	padding-bottom: 3rem;
+	font-size: 25px;
+	font-weight: 700;
+}

@@ -6,23 +6,53 @@
 	  margin-right: auto;
 	  margin-left: auto;
 	}
-
+	.containerss {
+	  width: 100%;
+	  padding-right: 15px;
+	  padding-left: 15px;
+	  margin-right: auto;
+	  margin-left: auto;
+	}
 
 
 }
 
 @media only screen and (min-width: 600px) {
-
+	.containerss {
+	  width: 100%;
+	  padding-right: 15px;
+	  padding-left: 15px;
+	  margin-right: auto;
+	  margin-left: auto;
+	}
 }
 
 @media only screen and (min-width: 768px) {
-
+	.containerss {
+	  width: 100%;
+	  padding-right: 30px;
+	  padding-left: 30px;
+	  margin-right: auto;
+	  margin-left: auto;
+	}
 }
 
 @media only screen and (min-width: 992px) {
-
+	.containerss {
+	  width: 100%;
+	  padding-right: 30px;
+	  padding-left: 30px;
+	  margin-right: auto;
+	  margin-left: auto;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
-
+	.containerss {
+	  width: 100%;
+	  padding-right: 5rem;
+	  padding-left: 5rem;
+	  margin-right: auto;
+	  margin-left: auto;
+	}
 }
