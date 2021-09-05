@@ -1,8 +1,16 @@
+
+
+.card-body {
+	height: 80px;
+}
+
+.card-footer {
+	height: 200px;
+}
 .card {
 	padding-top: 1rem;
 	border: 1px solid #ccc;
 	background: var(--normal-color);
-	height: 600px;
 }
 
 .card img {

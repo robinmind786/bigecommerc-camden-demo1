@@ -6,7 +6,7 @@ const display = function(products, element) {
          <article>
            <div class="card">
              <div class="card-header">
-              <a href="#">
+              <a href="shop.html?${id}">
                  <div class="card-img">
                    <img src="${image}">
                    <div class="card-img-overlay">
@@ -26,7 +26,7 @@ const display = function(products, element) {
                  </ul>
                </div>
                <div class="card-title">
-                 <a href="#">${name}</a>
+                 <a href="shop.html?${id}">${name}</a>
                </div>
              </div>
              <div class="card-footer">
@@ -35,7 +35,7 @@ const display = function(products, element) {
                  <h3 class="present-price">$${presentprice/100}</h3>
                </div>
                <div class="add-cart">
-                 <a href="#" class="btn">Add To Cart</a>
+                 <a href="#" data-set="${id}" class="btn">Add To Cart</a>
                </div>
                <div class="add-wishlist">
                  <a href="#" class="btn">Add To Your List <i class="fa fa-star-o"></i></a>
